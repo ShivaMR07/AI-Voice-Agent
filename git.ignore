@@ -1,0 +1,70 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Environment Variables (SECRETS)
+.env
+.env.local
+.env.*
+*.env
+
+# API Keys & Config
+config.json
+secrets.json
+credentials.json
+
+# Audio Files (temp/recorded)
+*.wav
+*.mp3
+*.ogg
+*.flac
+output_audio/
+recorded/
+
+# Data / Storage Files
+# Uncomment below if you don't want to commit stored data:
+# todo_store.json
+# memory_store.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.bak
+*.tmp
+*.swp
